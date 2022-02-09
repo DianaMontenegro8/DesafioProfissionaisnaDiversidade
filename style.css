@@ -6,6 +6,20 @@ body{
     display: none;
 }
 
+.titulo {
+
+    
+    margin: 10px auto 10px auto;
+    width: 80%;
+    padding: 15px 10px;
+    border: 1px solid rgb(233, 181, 181);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+
+
 input {
     display: block;
     margin: 10px auto 10px auto;
@@ -16,5 +30,29 @@ input {
     box-sizing: border-box;
     font-size: medium;
 }
+
+ table {
+     margin: auto;
+     box-shadow: 8px 8px 24px rgb(20, 1, 1);
+     text-align: center;
+     width: 50%;
+     border-collapse: collapse;
+ }
+th{
+    background-color: blueviolet;
+    color: white;
+
+}
+ th ,td{
+     padding: 8px;
+ }
+tr:nth-child(event){
+
+   background-color: rgb(182, 9, 212)
+ }
+
+ tr:hover {
+     font-weight: 500;
+ }
 
  
